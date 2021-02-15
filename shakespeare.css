@@ -1,0 +1,26 @@
+.speech {
+    font-size: 15px;
+    color: black;
+}
+
+.stage-direction {
+    font-size: 18px;
+    color: black;
+    background-color: cornflowerblue;
+}
+.stage-direction:hover {
+    background-color: darkblue;
+    color:whitesmoke;
+}
+
+.name {
+    font-size: 20px;
+    color: black;
+}
+
+.PORTIA {
+    color: red;
+}
+.BASSANIO{
+    color: seagreen;
+}
