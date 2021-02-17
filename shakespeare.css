@@ -41,3 +41,8 @@ table {
   tr:nth-child(even) {
       background-color: #e0ffde;
     }
+    .name:hover{
+        color: purple;
+        text-shadow: 2px 2px 4px grey;
+        border-style: dotted dashed solid double;
+    }
