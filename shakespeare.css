@@ -8,9 +8,10 @@
     color: black;
     background-color: cornflowerblue;
 }
+
 .stage-direction:hover {
     background-color: darkblue;
-    color:whitesmoke;
+    color: whitesmoke;
 }
 
 .name {
@@ -21,28 +22,47 @@
 .PORTIA {
     color: black;
 }
-.BASSANIO{
+
+.BASSANIO {
     color: black;
 }
 
 table {
     border-collapse: collapse;
     width: 100%;
+}
 
-  }
-  
-  th, td {
+th, td {
     text-align: left;
     padding: 8px;
     margin: 4px;
     border: 2px solid orange;
-  }
-  
-  tr:nth-child(even) {
-      background-color: #e0ffde;
-    }
-    .name:hover{
-        color: purple;
-        text-shadow: 2px 2px 4px grey;
-        border-style: dotted dashed solid double;
-    }
+}
+
+tr:nth-child(even) {
+    background-color: #e0ffde;
+}
+
+.name:hover {
+    color: purple;
+    text-shadow: 2px 2px 4px grey;
+    border-style: dotted dashed solid double;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    border: 5px solid #dd9f37;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #30dfd3;
+}
